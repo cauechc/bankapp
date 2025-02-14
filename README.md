@@ -46,7 +46,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 2. **Install Dependencies:**
-   python main.py
+   pip install sqlmodel
    pip install matplotlib
 
 ## SQL Viewer Extension (Optional)
