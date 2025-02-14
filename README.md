@@ -12,6 +12,16 @@ A Python application that simulates basic banking operations. This project provi
 - **Filter History:** Filter the transaction history based on various criteria.
 - **Chart:** Generate visual charts to analyze account or transaction data.
 
+## Project Structure
+
+bankapp/
+│
+├── templates.py/                # Entry point of the application
+├── models.py              # Contains the data models (e.g., Account)
+├── view.py/              # Business logic (account creation, deactivation, transfer, etc.)
+├── venv/          # Python environment that contains its own interpreter and installed packages, ensuring that dependencies required by this project don’t conflict with those from other projects or the system-wide Python installation.
+└── README.md              # This file
+
 ## Getting Started
 
 ### Prerequisites
@@ -39,7 +49,7 @@ source venv/bin/activate
    python main.py
    pip install matplotlib
 
-   ## SQL Viewer Extension (Optional)
+## SQL Viewer Extension (Optional)
 
 If you want to easily view and manage your database directly from your code editor, we recommend installing the **SQL Viewer** extension for Visual Studio Code.
 
